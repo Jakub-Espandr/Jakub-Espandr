@@ -1,0 +1,50 @@
+name: Update Age
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-age:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Calculate and update age
+        run: |
+          BIRTH_DATE="2000-07-17"
+          CURRENT_DATE=$(date +%Y-%m-%d)
+          
+          # Calculate age in years
+          BIRTH_YEAR=$(date -d $BIRTH_DATE +%Y)
+          BIRTH_MONTH=$(date -d $BIRTH_DATE +%m)
+          BIRTH_DAY=$(date -d $BIRTH_DATE +%d)
+          
+          CURRENT_YEAR=$(date -d $CURRENT_DATE +%Y)
+          CURRENT_MONTH=$(date -d $CURRENT_DATE +%m)
+          CURRENT_DAY=$(date -d $CURRENT_DATE +%d)
+          
+          AGE=$((CURRENT_YEAR - BIRTH_YEAR))
+          
+          # Subtract 1 if birthday hasn't occurred this year
+          if [ $CURRENT_MONTH -lt $BIRTH_MONTH ] || [ $CURRENT_MONTH -eq $BIRTH_MONTH -a $CURRENT_DAY -lt $BIRTH_DAY ]; then
+            AGE=$((AGE - 1))
+          fi
+          
+          echo "Calculated age: $AGE"
+          
+          # Update README.md
+          sed -i "s/🎂 Age [0-9]*/🎂 Age $AGE/g" README.md
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🎂 Update age to $(grep -o '🎂 Age [0-9]*' README.md | grep -o '[0-9]*')"
+            git push
+          fi
