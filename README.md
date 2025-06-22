@@ -97,6 +97,7 @@ Electronics, circuit design, and electrical systems foundation
 - **[DepthRGBCurator](https://github.com/Jakub-Espandr/DepthRGBCurator)** - RGB and depth image management with colormap visualization
 - **[Tiff2NPZUpscaler](https://github.com/Jakub-Espandr/Tiff2NPZUpscaler)** - Depth image upscaling using EDSR and batch processing
 - **[MetriCalc](https://github.com/Jakub-Espandr/MetriCalc)** - Classification metrics calculator with XLSX export and multilingual support
+- **[ImageMetaLocator](https://github.com/Jakub-Espandr/ImageMetaLocator)** - Interactive desktop tool for extracting GPS metadata and mapping photo locations
 
 ---
 
