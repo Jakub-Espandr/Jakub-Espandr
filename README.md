@@ -81,6 +81,9 @@ Electronics, circuit design, and electrical systems foundation
 
 ## 🚀 Featured Software Projects
 
+### **Photography & Microscopy Automation**
+- **[FOCUSpilot](https://github.com/Jakub-Espandr/FOCUSpilot)** - Professional Arduino focus stacking controller for macro and microscope photography with 15 pre-configured objectives and precision motor control
+
 ### **Flight & Simulation Systems**
 - **[B4F-FL1GHT](https://github.com/Jakub-Espandr/B4F-FL1GHT)** - Advanced Blackbox Log Viewer with multi-chart displays and comprehensive flight data analysis
 - **[DisasterSimCoppeliaSim](https://github.com/Jakub-Espandr/DisasterSimCoppeliaSim)** - Drone disaster navigation simulation with RGB-D camera and autonomous capabilities
