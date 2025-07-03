@@ -83,6 +83,7 @@ Electronics, circuit design, and electrical systems foundation
 
 ### **Photography & Microscopy Automation**
 - **[FOCUSpilot](https://github.com/Jakub-Espandr/FOCUSpilot)** - Professional Arduino focus stacking controller for macro and microscope photography with 15 pre-configured objectives and precision motor control
+- **[multiSPECTRALcam](https://github.com/Jakub-Espandr/multiSPECTRALcam)** - Raspberry Pi-based multispectral imaging system with modified NIR camera for agricultural monitoring and drone integration with DJI Phantom 4
 
 ### **Flight & Simulation Systems**
 - **[B4F-FL1GHT](https://github.com/Jakub-Espandr/B4F-FL1GHT)** - Advanced Blackbox Log Viewer with multi-chart displays and comprehensive flight data analysis
@@ -101,6 +102,11 @@ Electronics, circuit design, and electrical systems foundation
 - **[Tiff2NPZUpscaler](https://github.com/Jakub-Espandr/Tiff2NPZUpscaler)** - Depth image upscaling using EDSR and batch processing
 - **[MetriCalc](https://github.com/Jakub-Espandr/MetriCalc)** - Classification metrics calculator with XLSX export and multilingual support
 - **[ImageMetaLocator](https://github.com/Jakub-Espandr/ImageMetaLocator)** - Interactive desktop tool for extracting GPS metadata and mapping photo locations
+
+### **Robotics & Competition Projects**
+- **[ProjectY](https://github.com/Jakub-Espandr/ProjectY)** - Advanced autonomous robot for RoboRAVE Czech Republic and International 2020 competition with enhanced navigation and challenge-solving capabilities
+- **[ProjectX2019](https://github.com/Jakub-Espandr/ProjectX2019)** - Championship-winning robot that secured 5th place worldwide and 2nd best country award at RoboRAVE International China 2019
+- **[ProjectX](https://github.com/Jakub-Espandr/ProjectX)** - National champion robot that dominated RoboRAVE Czech Republic 2019 with innovative design and autonomous functionality
 
 ---
 
