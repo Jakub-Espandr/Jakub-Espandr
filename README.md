@@ -1,7 +1,7 @@
 # Hi there, I'm Jakub Ešpandr 👋
 
 🚁 **Multi-Disciplinary Engineer & UAV Specialist**  
-📍 Czech Republic | 🌐 [flycamczech.eu](https://www.flycamczech.eu) | 🎂 Age 24
+📍 Czech Republic | 🌐 [flycamczech.eu](https://www.flycamczech.eu) | 🎂 Age 25
 
 I'm passionate about technology, innovation, and hands-on engineering. My work spans from cutting-edge software development to precision hardware repair, combining digital tools with traditional craftsmanship.
 
