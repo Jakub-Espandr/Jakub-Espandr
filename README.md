@@ -96,6 +96,7 @@ Electronics, circuit design, and electrical systems foundation
 - **[GeoShrink](https://github.com/Jakub-Espandr/GeoShrink)** - Fast GeoTIFF to PNG conversion with optional resizing
 - **[OrthophotoTool](https://github.com/Jakub-Espandr/OrthophotoTool)** - Ground Sampling Distance (GSD) viewer with DJI camera integration
 - **[UAVAreaCalc](https://github.com/Jakub-Espandr/UAVAreaCalc)** - Area calculation from UAV GeoTIFFs and shapefiles
+- **[ImageWebify](https://github.com/Jakub-Espandr/ImageWebify)** - Batch JPG/PNG to WebP converter with quality, size, and preview controls
 
 ### **Data Processing & Analysis**
 - **[DepthRGBCurator](https://github.com/Jakub-Espandr/DepthRGBCurator)** - RGB and depth image management with colormap visualization
