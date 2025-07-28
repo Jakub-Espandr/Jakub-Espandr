@@ -98,6 +98,8 @@ Electronics, circuit design, and electrical systems foundation
 - **[UAVAreaCalc](https://github.com/Jakub-Espandr/UAVAreaCalc)** - Area calculation from UAV GeoTIFFs and shapefiles
 - **[ImageWebify](https://github.com/Jakub-Espandr/ImageWebify)** - Batch JPG/PNG to WebP converter with quality, size, and preview controls
 - **[ImageCompressor](https://github.com/Jakub-Espandr/ImageCompressor)** – Advanced image compression and format conversion tool with smart resizing, quality control, real-time preview, and batch support
+- **[ColorSpace Converter](https://github.com/Jakub-Espandr/ColorSpaceConverter)** – Desktop application for analyzing and converting images between RGB, CIELab, and HSV color spaces with real-time color information and channel visualization
+
 ### **Data Processing & Analysis**
 - **[DepthRGBCurator](https://github.com/Jakub-Espandr/DepthRGBCurator)** - RGB and depth image management with colormap visualization
 - **[Tiff2NPZUpscaler](https://github.com/Jakub-Espandr/Tiff2NPZUpscaler)** - Depth image upscaling using EDSR and batch processing
